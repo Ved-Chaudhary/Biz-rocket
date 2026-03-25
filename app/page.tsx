@@ -270,7 +270,7 @@ export default function BizRocketMultiStepDemo() {
           {!isTyping && activeFlow === 'ads' && flowStep === 1 && (
              <div className="flex gap-2"><button onClick={() => handleFlowStep('₹500/day se start karte hain')} className="flex-1 bg-white border border-purple-300 text-purple-700 text-[13px] font-medium py-3 px-2 rounded-xl text-center shadow-sm">₹500/day</button><button onClick={() => handleFlowStep('₹1500/day thik hai')} className="flex-1 bg-white border border-purple-300 text-purple-700 text-[13px] font-medium py-3 px-2 rounded-xl text-center shadow-sm">₹1500/day</button></div>
           )}
-          {!istj && activeFlow === 'ads' && flowStep === 2 && (
+          {!isTyping && activeFlow === 'ads' && flowStep === 2 && (
              <div className="flex gap-2"><button onClick={() => handleFlowStep('2km me sabko dikhao')} className="flex-1 bg-white border border-purple-300 text-purple-700 text-[13px] font-medium py-3 px-2 rounded-xl text-center shadow-sm">2km Radius (All)</button><button onClick={() => handleFlowStep('Sirf naye logo ko dikhao')} className="flex-1 bg-white border border-purple-300 text-purple-700 text-[13px] font-medium py-3 px-2 rounded-xl text-center shadow-sm">Only New Users</button></div>
           )}
           
